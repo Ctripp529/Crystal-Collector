@@ -1,0 +1,32 @@
+* {
+    color: azure;
+}
+
+h1 {
+    font-family: 'Ruslan Display', cursive;
+    text-align: center;
+    font-size: 65px;
+}
+
+h3, h2 {
+    text-align: center;
+}
+
+P {
+    text-align: center;
+    font-size: 18px;
+}
+
+#randomNum {
+    font-size: 54px;
+    text-align: center;    
+}
+
+#totalScore, #wins, #losses {
+    font-size: 35px;
+    align-content: center;  
+}
+
+body {
+    background-image: url(../images/backgroundcc.jpg)
+}

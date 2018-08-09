@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <title>c|< Desings | Crystal Collector</title>
+</head>
+<body>
+    <div class= "container"><h1>Crystal Collector</h1></div>
+        <div class="row" class="col-md-12"><p>Instructions</p></div>
+            <div class="col-md-12"><p>You will be given a random number at the start of the game.
+            There are four crystals below. By clicking on a crystal you will add 
+            a specific amount of points to your total score.
+            You win the game by matching the total score to a random number,
+            you lose the game if your total score goes above the random number.
+            The value of each crystal is hidden from you until you click on it.
+            Each time when the game starts, the game will change the value of each crystal.
+            </p></div>  
+            <br>
+            <br>
+        <div><h3>This is the random number you must match</h3>
+            <br>
+        <div class="container" id="randomNum"></div>
+            <div class="row"></div>
+                <div class="col-md-1"></div>
+                    <div id="wins">Wins: </div>
+                <div class="col-md-1"></div>
+                    <div id="losses">Losses: </div>
+                <div class="col-md-1"></div>
+                    <div id="totalScore">Your Total Score: </div>
+                    <div class="col-md-12" id="imgSection"></div>
+                    <img id="crystal1" src="./assets/images/crystal1.png" alt="crystal1" width="250px" height:"250px">
+                    <img id="crystal2" src="./assets/images/crystal2.png" alt="crystal2" width="150px" height:"150px">
+                    <img id="crystal3" src="./assets/images/crystal3.png" alt="crystal3" width="250px" height:"250px">
+                    <img id="crystal4" src="./assets/images/crystal4.png" alt="crystal4" width="200px" height:"200px">
+               
+<script src="./assets/javascript/game.js"></script>
+</body>
+</html>
